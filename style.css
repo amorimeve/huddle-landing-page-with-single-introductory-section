@@ -8,10 +8,51 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 
+.principal {
+    display: flex;
+    align-items: center;
+
+}
+ .principal > div {
+    flex: 1;
+    margin-left: 45px;
+ }
+
+.principal img {
+    width: 100%;
+}
+
 .titulo-principal {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
     font-weight: 700;
+    color: white;
+    flex: 1;
+
 }
 
 .texto {
+    text-align: left;
+    margin-top: 10px;
     font-weight: 400;
+    color: white;
+    font-size: 14px;
+}
+
+.botao {
+    background: white;
+    color: hsl(257, 40%, 49%);
+    font-size: 16px;
+    margin-top: 2em;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 9%;
+    padding-right: 9%;
+    box-shadow: 5px 5px 5px hsl(257, 49%, 43%);
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
 }
