@@ -1,0 +1,15 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-principal {
+    font-weight: 700;
+}
+
+.texto {
+    font-weight: 400;
+}
