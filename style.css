@@ -4,6 +4,13 @@ body {
     background-image: url(images/bg-desktop.svg);
 }
 
+header img {
+    width: 200px;
+    margin-top: 64px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+}
+
 main {
     font-family: 'Poppins', sans-serif;
 }
@@ -11,26 +18,30 @@ main {
 .principal {
     display: flex;
     align-items: center;
-
 }
- .principal > div {
+
+.principal>div {
+    width: 1281px;
     flex: 1;
+    margin-left: 80px;
+}
+
+.principal>div:last-of-type {
     margin-left: 45px;
- }
+}
 
 .principal img {
     width: 100%;
 }
 
 .titulo-principal {
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 1px;
     text-align: left;
     line-height: 1.5;
     font-weight: 700;
     color: white;
     flex: 1;
-
 }
 
 .texto {
@@ -47,7 +58,7 @@ main {
     font-size: 16px;
     margin-top: 2em;
     border: none;
-    border-radius: 15px;
+    border-radius: 50px;
     padding: 15px;
     padding-left: 9%;
     padding-right: 9%;
@@ -55,4 +66,9 @@ main {
     cursor: pointer;
     transition: 0.5s;
     font-family: 'Open Sans', sans-serif;
+}
+
+.botao:hover {
+    background: hsl(240, 14%, 99%);
+    transform: scale(1.1);
 }
